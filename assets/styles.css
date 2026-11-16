@@ -11,8 +11,6 @@
   --text-secondary: #4A5068;
   --accent: #5B47C9;
   --link: #5B47C9;
-  --notice-bg: #FBEBD3;
-  --notice-text: #5C3A08;
   --sky: #E7E3F8;
   --radius: 16px;
   --measure: 42rem;
@@ -28,8 +26,6 @@
     --text-secondary: #B4B9CE;
     --accent: #B9A8FF;
     --link: #CFC4FF;
-    --notice-bg: #2A2418;
-    --notice-text: #F2C48D;
     --sky: #1A2038;
   }
 }
@@ -109,15 +105,6 @@ a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-
 .meta { color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem; }
 .meta > span { display: block; }
 
-.notice {
-  background: var(--notice-bg);
-  color: var(--notice-text);
-  border-radius: var(--radius);
-  padding: 0.9rem 1.1rem;
-  margin: 1rem 0 1.5rem;
-  font-size: 0.97rem;
-}
-.notice strong { color: inherit; }
 
 .card {
   background: var(--surface);
@@ -150,9 +137,6 @@ th, td { text-align: left; vertical-align: top; padding: 0.6rem 0.5rem; border-b
 th { color: var(--text-secondary); font-weight: 600; }
 .table-wrap { overflow-x: auto; }
 
-/* Statements that could not be verified against official documentation; resolved before publication. */
-.unverified { border-bottom: 2px dotted var(--notice-text); }
-.todo { background: var(--notice-bg); color: var(--notice-text); padding: 0 0.3em; border-radius: 4px; font-weight: 600; }
 
 details { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 0 1.1rem; margin: 0 0 0.75rem; }
 summary { cursor: pointer; font-weight: 600; min-height: 48px; display: flex; align-items: center; }

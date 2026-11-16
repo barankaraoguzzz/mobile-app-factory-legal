@@ -9,9 +9,9 @@ JavaScript, cookies, tracking or build step.
 
 ## Status
 
-All documents are **drafts pending approval**. Pages carry `<meta name="robots" content="noindex">` and the legal
-documents a draft notice. Before publishing: set the effective date (the only remaining `todo`), remove the draft
-notice and `noindex`, and make sure each statement still matches the shipped app and its SDK configuration.
+StudyGlow documents are **in effect since November 16, 2026** (approved by Baran Karaoğuz). When an app's data
+practices or subscription terms change, update its pages in the same change, set a new "Last updated" date, and
+keep each statement matching the shipped app and its SDK configuration.
 
 Pages use `body.theme-orvynel` for the studio palette; app pages use the app's own palette (StudyGlow:
 Midnight Glow). Both follow the system light/dark appearance.
@@ -32,6 +32,10 @@ All links are **relative** (`../`, `../../assets/styles.css`), so the site works
 project path (`/mobile-app-factory-legal/`) and later at the root of a custom domain, without changes.
 
 ## Adding an app
+
+New pages start as drafts: add `<meta name="robots" content="noindex">` and a draft notice until the owner
+approves them.
+
 
 1. Copy `studyglow/` to `<app>/` (lowercase, no spaces) and rewrite every page from that app's actual behavior —
    never copy another app's data practices.
